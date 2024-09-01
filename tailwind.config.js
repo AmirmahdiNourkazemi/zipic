@@ -9,6 +9,9 @@ export default withMT({
     extend: {
       colors: {
         'color-base': '#f43f5e',
+        'color-base-blue': '#6366f1',
+        'color-base-900':'#be185d',
+        'color-base-950':'#4c0519'
       },
       fontFamily: {
         'morabba': ['morabba', 'serif'],

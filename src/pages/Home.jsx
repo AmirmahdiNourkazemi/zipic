@@ -12,7 +12,7 @@ function Home() {
       <div className="text-center mt-8 md:mt-20">
         <div className="flex justify-center items-center">
           <h1 className="font-bold font-morabba-bold text-3xl md:text-7xl text-color-base ">
-            کاهش حجم فایل
+            <span className="text-color-base-blue">کاهش</span> حجم فایل
           </h1>
           <Lottie animationData={Emoji} loop={true} className="w-24" />
         </div>

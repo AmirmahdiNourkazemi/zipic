@@ -16,7 +16,7 @@
     content: '';
     position: absolute;
     width: 260px;
-    background-image: linear-gradient(180deg, #f43f5e, #9C73F7);
+    background-image: linear-gradient(90deg, #f43f5e, #6366f1);
     height: 40%;
     animation: rotBGimg 5s linear infinite;
     transition: all 0.2s linear;
