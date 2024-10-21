@@ -24,11 +24,11 @@ export function MegaMenuDefault() {
     <img src={logo} alt="" width={50}/>
         <Typography
           as="a"
-          href="#"
+          href="https://zipic.ir/blog/"
           variant="h5"
           className="mr-1 cursor-pointer py-1.5 lg:ml-2 font-morabba-bold"
         >
-      زیپیک
+          بلاگ
         </Typography>
     </div>
        <div className="flex items-center">

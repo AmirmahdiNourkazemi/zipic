@@ -50,7 +50,7 @@ export default function ImageCompressor() {
   const processFiles = async (selectedFiles) => {
     const validFiles = selectedFiles.filter((file) => {
       if (!file.type.startsWith("image/")) {
-        toast.error(`لطفا عکس انتخاب کنید`);
+        toast.error(`لطفا فایل عکس بارگذاری کنید`);
         return false;
       }
       return true;
