@@ -289,7 +289,7 @@ export default function ImageCompressor() {
             dragging
               ? "border-color-base-blue bg-red-50"
               : "border-color-base-blue"
-          } border-opacity-30 border-dashed border-2 mt-5 p-12 m-5 w-full`}
+          } border-opacity-30 border-dashed border-2 mt-5 p-12 m-5 w-80 md:w-96 h-80 md:h-96`}
           onDragOver={handleDragOver}
           onDragLeave={handleDragLeave}
           onDrop={handleDrop}
@@ -300,14 +300,14 @@ export default function ImageCompressor() {
                 <Lottie
                   animationData={Upload}
                   loop={true}
-                  className="w-[80%] md:w-[20%]"
+                  className="w-[80%] md:w-[80%]"
                 />
-                <Typography className="mt-3 font-kalame-medium text-color-base text-sm md:text-3xl">
+                <Typography className="mt-3 font-kalame-medium text-color-base text-sm md:text-xl">
                   فایل‌ها رو اینجا بارگزاری کن
                 </Typography>
                 <Button
                   variant="filled"
-                  className="flex justify-center items-center gap-3 mt-5 w-[100%] md:w-[40%] bg-color-base-blue text-white shadow-color-base-blue shadow-2xl"
+                  className="flex justify-center items-center gap-3 mt-5 w-[100%] md:w-[80%] bg-color-base-blue text-white shadow-color-base-blue shadow-2xl"
                   onClick={handleButtonClick}
                 >
                   <div className="flex items-center gap-3 justify-center">
@@ -317,7 +317,7 @@ export default function ImageCompressor() {
                       viewBox="0 0 24 24"
                       strokeWidth={2}
                       stroke="currentColor"
-                      className="h-5 w-5"
+                      className="h-5 w-8"
                     >
                       <path
                         strokeLinecap="round"
