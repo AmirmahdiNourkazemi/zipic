@@ -24,7 +24,7 @@ export function MegaMenuDefault() {
     <img src={logo} alt="zipic" width={50}/>
         <Typography
           as="a"
-          href="https://zipic.ir/blog/"
+          href="https://zipic.ir/newblog/"
           variant="h5"
           className="mr-1 cursor-pointer py-1.5 lg:ml-2 font-morabba-bold"
         >

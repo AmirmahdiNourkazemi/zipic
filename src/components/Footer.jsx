@@ -22,8 +22,8 @@ const Footer = () => {
                 زیپیک
               </h6>
               <p className="font-irm text-xs sm:text-sm text-justify text-blue-gray-800 max-w-96 leading-5">
-              تبدیل عکس به متن فارسی <br /> 
-                تبدیل عکس به پی دی اف <br /> تبدیل عکس به jpg  <br /> تبدیل عکس به png
+              کاهش حجم عکس آنلاین <br /> 
+              کاهش حجم pdf <br /> کاهش حجم فایل  <br /> کاهش حجم فایل صوتی
               </p>
             </div>
             <div className="grid grid-cols-2 md:flex md:gap-x-10">
