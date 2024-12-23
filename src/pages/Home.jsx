@@ -5,6 +5,10 @@ import Emoji from "../assets/images/emoji.json";
 import Lottie from "lottie-react";
 import Footer from "../components/Footer";
 import  Starter from '../assets/images/starter.png';
+import ImageContent1 from "../components/ui/imageContent1";
+import VideoContent from "../components/ui/viderContent";
+import ImageContent2 from "../components/ui/imageContent2";
+import SwiperUi from "../components/ui/swiperContent";
 function Home() {
   return (
   <div className="relative">
@@ -30,9 +34,12 @@ function Home() {
         </p>
        
       </div>
-      
-    
+      <VideoContent/>
+      <ImageContent1/>
+      <ImageContent2/>
+      <SwiperUi/>
       <div className="flex justify-center">
+        
       <Footer/>
       </div>
     </>
