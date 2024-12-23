@@ -21,7 +21,7 @@ export function MegaMenuDefault() {
     <Navbar className="mx-auto w-[98%] px-4 py-2 mt-2 border border-color-base-blue border-opacity-30 overflow-hidden">
       <div className="flex items-center justify-between text-blue-gray-900">
     <div className="flex items-center">
-    <img src={logo} alt="" width={50}/>
+    <img src={logo} alt="zipic" width={50}/>
         <Typography
           as="a"
           href="https://zipic.ir/blog/"

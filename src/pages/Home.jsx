@@ -9,6 +9,7 @@ import ImageContent1 from "../components/ui/imageContent1";
 import VideoContent from "../components/ui/viderContent";
 import ImageContent2 from "../components/ui/imageContent2";
 import SwiperUi from "../components/ui/swiperContent";
+import ImageContent3 from "../components/ui/imageContent3";
 function Home() {
   return (
   <div className="relative">
@@ -30,17 +31,18 @@ function Home() {
           
         </div>
           توی اینجا میتونی حجم هر <span className="text-color-base-blue">عکسی</span> رو کم کنی
-          <img src={Starter} alt="" srcset="" className="w-80 mx-auto"/>
+          <img src={Starter} alt="zipic" srcset="" className="w-80 mx-auto"/>
         </p>
        
       </div>
       <VideoContent/>
       <ImageContent1/>
       <ImageContent2/>
-      <SwiperUi/>
+      <ImageContent3/>
+      <Footer/>
       <div className="flex justify-center">
         
-      <Footer/>
+    
       </div>
     </>
   </div>
